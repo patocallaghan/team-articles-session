@@ -8,7 +8,7 @@ Working demo of refactoring the Panel components in this [Ember Twiddle](https:/
 * Named Blocks
 
 
-===
+---
 
 ## Prerequisites
 
