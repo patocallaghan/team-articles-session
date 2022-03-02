@@ -1,0 +1,7 @@
+<div
+  class='panel-header'
+  style='background: {{if @isOpen @headerColor}}'
+  {{on 'click' @togglePanel}}
+>
+  {{yield}}
+</div>

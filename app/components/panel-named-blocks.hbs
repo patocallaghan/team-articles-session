@@ -1,0 +1,14 @@
+<div class='panel'>
+  <div
+    class='panel-header'
+    style='background: {{if this.isOpen @headerColor}}'
+    {{on 'click' this.togglePanel}}
+  >
+    {{yield to='header'}}
+  </div>
+  {{#if this.isOpen}}
+    <div class='panel-body'>
+      {{yield to='body'}}
+    </div>
+  {{/if}}
+</div>

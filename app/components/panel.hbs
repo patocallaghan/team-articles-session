@@ -1,0 +1,13 @@
+<div class='panel'>
+  {{yield
+    (hash
+      Header=(component
+        'panel/header'
+        isOpen=this.isOpen
+        togglePanel=this.togglePanel
+        headerColor=@headerColor
+      )
+      Body=(component 'panel/body' isOpen=this.isOpen)
+    )
+  }}
+</div>

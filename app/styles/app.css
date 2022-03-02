@@ -1,0 +1,19 @@
+body {
+	margin: 12px 16px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+}
+
+.panel {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.panel-header {
+  cursor: pointer;
+}
+
+.panel-body {
+  padding: 10px 0 0;
+}

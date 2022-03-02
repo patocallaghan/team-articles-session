@@ -1,7 +1,31 @@
-{{page-title "TeamArticlesSession"}}
+<PanelNamedBlocks @headerColor='lightblue'>
+  <:header>
+    Alpha header
+  </:header>
+  <:body>
+    Alpha body
+  </:body>
+</PanelNamedBlocks>
+<br />
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<Panel>
+  <Panel::Header
+    @headerColor='hotpink'
+    @isOpen={{this.isBetaOpen}}
+    @togglePanel={{this.toggleBetaPanel}}
+  >
+    Beta Header
+  </Panel::Header>
+  <Panel::Body @isOpen={{this.isBetaOpen}}>
+    Beta Body
+  </Panel::Body>
+</Panel>
 
-{{outlet}}
+{{! <Panel as |panel|>
+  <panel.Header @headerColor='hotpink'>
+    Beta header
+  </panel.Header>
+  <panel.Body>
+    Beta body
+  </panel.Body>
+</Panel> }}
