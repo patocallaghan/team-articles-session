@@ -1,7 +1,14 @@
 # team-articles-session
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[Slides](https://docs.google.com/presentation/d/10TRPLtApBnQz4gQEjfdh6IKq6AIfErm64rTu3kNVVJI/edit#slide=id.p)
+
+Working demo of refactoring the Panel components in this [Ember Twiddle](https://ember-twiddle.com/89de8d131d2352eadea75296aab4b550) to use other composing APIs
+
+* Contextual Components
+* Named Blocks
+
+
+===
 
 ## Prerequisites
 
